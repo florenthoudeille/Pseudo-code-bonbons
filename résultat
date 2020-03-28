@@ -1,0 +1,8 @@
+Avant l'algorithme, on a maxBonbons = 0. 
+
+début Bonbons(prix, argent)
+  Tant que Argent > prix
+    maxBonbons = maxBonbons + 1
+    Argent = Argent - prix
+  Retourner maxBonbons
+Fin Bonbons(prix, argent)
